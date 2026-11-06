@@ -1,0 +1,18 @@
+{
+  "owner": "LoganLazy",
+  "name": "nebula-deploy",
+  "description": "面向轻量 Linux 服务器的 AI SSH 部署助手：计划审阅、限时执行、健康检查与本地审计日志。",
+  "homepage": "",
+  "private": false,
+  "has_issues": true,
+  "has_wiki": false,
+  "topics": [
+    "deployment",
+    "ssh",
+    "self-hosted",
+    "python",
+    "linux",
+    "automation",
+    "ai"
+  ]
+}

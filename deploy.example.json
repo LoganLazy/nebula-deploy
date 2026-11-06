@@ -1,0 +1,22 @@
+{
+  "ssh": {
+    "host": "203.0.113.10",
+    "port": 22,
+    "user": "deploy",
+    "identity_file": "~/.ssh/id_ed25519"
+  },
+  "source_dir": "../your-project",
+  "remote_dir": "/opt/my-app",
+  "max_source_mb": 512,
+  "ai": {
+    "base_url": "https://api.example.com/v1",
+    "model": "your-compatible-model",
+    "api_key_env": "DEPLOY_AI_KEY"
+  },
+  "execution": {
+    "command_timeout": 900,
+    "healthcheck_timeout": 10,
+    "healthcheck_attempts": 5,
+    "healthcheck_interval": 3
+  }
+}
